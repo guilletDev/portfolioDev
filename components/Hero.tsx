@@ -31,7 +31,7 @@ const Hero = () => {
 
             <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transformar conceptos en experiencias de usuario perfectas"/>
+            words="Convierte tu idea en página web"/>
 
             <p className="text-center md:tracking-wider mb-4 text-md md:text-lg lg:text-2xl">
                 ¡Hola! Soy Guillermo, Desarrollador Front-end
