@@ -1,8 +1,8 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+    { name: "Proyectos", link: "#projects" },
+    { name: "Experiencia", link: "#experience" },
+    { name: "Sobre mi", link: "#about" },
+    { name: "Contacto", link: "#contact" },
   ];
   
   export const gridItems = [
@@ -75,7 +75,7 @@ export const navItems = [
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
