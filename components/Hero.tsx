@@ -30,14 +30,15 @@ const Hero = () => {
             </h2>
 
             <TextGenerateEffect 
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Convierte tu idea en página web"/>
+            className="text-center text-4xl md:text-5xl lg:text-6xl"
+            words="¡Hola! Soy Guillermo, Desarrollador Front-end"/>
+            
 
             <p className="text-center md:tracking-wider mb-4 text-md md:text-lg lg:text-2xl">
-                ¡Hola! Soy Guillermo, Desarrollador Front-end
+            Transforma tu idea en una Página Web
             </p>
             <a href="#about">
-                <MagicButton title='Mis Trabajos' icon={<FaLocationArrow />} position="right" />
+                <MagicButton title='Mi Cv' icon={<FaLocationArrow />} position="right" />
             </a>
         </div>
 
