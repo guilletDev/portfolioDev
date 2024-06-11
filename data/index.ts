@@ -28,7 +28,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Mis Habilidades",
+      title: "Mi Stack",
       description: "En constante mejora",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
