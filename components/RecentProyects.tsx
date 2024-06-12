@@ -34,9 +34,13 @@ const RecentProyects = () => {
                                 </div>
                             ))} 
                         </div>
-                        <div className='flex justify-center items-center' >
-                            <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Ver Demo</p>
+                        <div className='flex items-center' >
+                          <a target='blank' href="https://buscador-peliculas-guillet.vercel.app/" className='flex items-center'>
+                            <p className='flex flex-col lg:text-xl md:text-xs text-sm text-purple'>Ver Demo</p>
                             <FaLocationArrow className='ms-2' color= '#CBACF9' />
+                          
+                          </a>
+                            
                         </div>
                       </div>
                     </PinContainer>
