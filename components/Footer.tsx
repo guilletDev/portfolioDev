@@ -18,7 +18,7 @@ export const Footer = ()=> {
 
             <div className="flex items-center justify-between mt-16 md:flex-row flex-col">
                 <p className="text-sm md:text-base md:font-normal font-light">
-                     Copyright © 2024 guilletdev
+                     Copyright © 2024 guillet
                 </p>
                 <div className="flex items-center md:gap-3 gap-6">
                     {socialMedia.map((profile)=>(
