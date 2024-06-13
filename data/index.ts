@@ -208,10 +208,10 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
     },
+    /* {
+      id: 3,
+      img: "/twit.svg",
+    }, */
   ];
