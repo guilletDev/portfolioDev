@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "Proyectos", link: "#projects" },
-    { name: "Experiencia", link: "#experience" },
+    /* { name: "Experiencia", link: "#experience" }, */
     { name: "Sobre mi", link: "#about" },
     { name: "Contacto", link: "#contact" },
   ];
@@ -76,7 +76,7 @@ export const navItems = [
       des: "Encuentra la peliculas que quieras",
       img: "/Buscadorpeliculas.webp",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
-      link: "buscador-peliculas-guillet.vercel.app",
+      link: "https://buscador-peliculas-guillet.vercel.app/",
     },
     {
       id: 2,
