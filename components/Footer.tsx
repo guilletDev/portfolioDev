@@ -5,7 +5,7 @@ import { socialMedia } from "@/data"
 
 export const Footer = ()=> {
     return (
-        <footer id="contact" className="w-full pb-10 mb-[100px] md:mb-5 ">
+        <footer id="contact" className="w-full pb-10 mb-[60px] md:mb-5 ">
            
             <div className="flex flex-col items-center">
                 <h1 className="heading lg:max-w-[50vw]">Listo para llevar tu <span className="text-purple">prescencia</span> digital al siguiente nivel?</h1>
@@ -17,9 +17,9 @@ export const Footer = ()=> {
 
             <div className="flex items-center justify-between mt-16 md:flex-row flex-col">
                 <p className="text-sm md:text-base md:font-normal font-light">
-                     Copyright © 2024 guillet
+                     Copyright © 2024 guilletdev
                 </p>
-                <div className="flex items-center md:gap-3 gap-6">
+                <div className="flex items-center md:gap-4 gap-4 mt-5 md:mt-0">
                     {socialMedia.map((profile)=>(
                         <div key={profile.id} className="flex w-10 h-10 cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
                         rounded-lg border border-black-300">

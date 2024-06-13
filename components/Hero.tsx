@@ -37,8 +37,8 @@ const Hero = () => {
             <p className="text-center md:tracking-wider mb-4 mt-1 text-lg md:text-lg lg:text-2xl">
             Transforma tu idea en una Página Web
             </p>
-            <a href="#about">
-                <MagicButton title='Mi Cv' icon={<FaLocationArrow />} position="right" />
+            <a href="mailto:guilletdev@gmail.com">
+                <MagicButton title='Contáctame' icon={<FaLocationArrow />} position="right" />
             </a>
         </div>
 
