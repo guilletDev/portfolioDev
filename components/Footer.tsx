@@ -1,7 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa"
 import MagicButton from "./ui/MagicButton"
 import { socialMedia } from "@/data"
-import { div } from "three/examples/jsm/nodes/Nodes.js"
 
 
 export const Footer = ()=> {
@@ -24,7 +23,7 @@ export const Footer = ()=> {
                     {socialMedia.map((profile)=>(
                         <div key={profile.id} className="flex w-10 h-10 cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
                         rounded-lg border border-black-300">
-                            <img src={profile.img} alt={profile.id} height={20} width={20} />
+                            <img src={profile.img} alt='Iconos del footer' height={20} width={20} />
                         </div>
                     ))}
                 </div>
