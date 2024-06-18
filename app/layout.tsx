@@ -6,8 +6,11 @@ import { ThemeProvider } from "@/components/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GuilletDev Portfolio",
+  title: " Portfolio GuilletDev",
   description: "Front-end Developer",
+  icons: {
+    icon: '@/public/guilletdev.png'
+  }
 };
 
 export default function RootLayout({
