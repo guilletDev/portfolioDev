@@ -75,18 +75,18 @@ export const navItems = [
       title: "Buscador de Peliculas",
       des: "Encuentra la peliculas que quieras",
       img: "/Buscadorpeliculas.webp",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+      iconLists: [ "/html.svg", "/css.svg", "/re.svg",],
       link: "https://buscador-peliculas-guillet.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Mini App de Productos",
+      des: "Mini app de productos utilizando React.js con el fin de consumir una Api y renderizar en pantalla a traves de rutas",
+      img: "/singlepageportada.webp",
+      iconLists: ["/html.svg", "/css.svg", "/re.svg", ],
+      link: "https://single-page-w.vercel.app/",
     },
-    {
+    /*{
       id: 3,
       title: "AI Image SaaS - Canva Application",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
@@ -101,7 +101,7 @@ export const navItems = [
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
       link: "https://github.com/adrianhajdin/iphone",
-    },
+    }, */
   ];
   
   export const testimonials = [

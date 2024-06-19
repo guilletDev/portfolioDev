@@ -8,7 +8,7 @@ export const Footer = ()=> {
         <footer id="contact" className="w-full pb-10 mb-[60px] md:mb-5 ">
            
             <div className="flex flex-col items-center">
-                <h1 className="heading lg:max-w-[50vw]">Listo para llevar tu <span className="text-purple">prescencia</span> digital al siguiente nivel?</h1>
+                <h1 className="heading lg:max-w-[50vw]">¿Listo para llevar tu <span className="text-purple">presencia</span> digital al siguiente nivel?</h1>
                 <p className="text-white-200 md:mt-10 my-5 text-center">Comunicate conmigo y analicemos cómo puedo ayudarte a alcanzar tus objetivos </p>
                 <a href="mailto:guilletdev@gmail.com">
                     <MagicButton title="Contáctame" icon={<FaLocationArrow/>} position="right"/>

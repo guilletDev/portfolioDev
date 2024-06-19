@@ -7,10 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: " Portfolio GuilletDev",
-  description: "Front-end Developer",
-  icons: {
+  description: "Desarrollador web Front-end, utilizo html, css, javascript, react.js, node.js, express, mysql, mongoDb, next.js, astro",
+  /* icons: {
     icon: '@/public/guilletdev.png'
-  }
+  } */
 };
 
 export default function RootLayout({
