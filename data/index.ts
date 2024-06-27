@@ -16,7 +16,7 @@ export const navItems = [
       img: "/b1.svg",
       spareImg: "",
     },
-    {
+    /*{
       id: 2,
       title: "Soy muy flexible con las comunicaciones de zona horaria",
       description: "",
@@ -25,12 +25,12 @@ export const navItems = [
       titleClassName: "justify-start",
       img: "",
       spareImg: "",
-    },
+    }, */
     {
       id: 3,
       title: "Mi Stack",
       description: "En constante mejora",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:pb-40 lg:pt-8",
       imgClassName: "",
       titleClassName: "justify-center",
       img: "",
@@ -38,9 +38,9 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Entusiasta de la tecnología y apasionado por el desarrollo",
+      title: "Actualmente construyendo Webs Dinámicas",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1 ",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Actualmente construyendo Webs Dinámicas",
+      title: "Entusiasta de la tecnología y apasionado por el desarrollo",
       description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -80,8 +80,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mini App de Productos",
-      des: "Mini app de productos utilizando React.js con el fin de consumir una Api y renderizar en pantalla a traves de rutas",
+      title: "Mini Web App de Productos",
+      des: "Renderiza lista de productos a travez del consumo de una API",
       img: "/singlepageportada.webp",
       iconLists: ["/html.svg", "/css.svg", "/re.svg", ],
       link: "https://single-page-w.vercel.app/",
