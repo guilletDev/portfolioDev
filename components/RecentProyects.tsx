@@ -4,9 +4,9 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const RecentProyects = () => {
   return (
-    <section id='projects' className=" py-20 w-auto  ">
+    <section id='projects' className=" py-20   ">
         <h1 className="heading">Proyectos <span className="text-purple">Recientes</span> </h1>
-        <div className="flex flex-wrap justify-center items-center p-4 gap-x-24 gap-y-8 mt-10">
+        <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
             {projects.map(({id, title, des, img, iconLists, link})=>(
                 <div key={id} className=' sm:h-[41rem] h-[32rem] lg:min-h-[35.5rem]  flex items-center justify-center sm:w-98 w-[80vw]'>
                     <PinContainer title={title} href={link}>

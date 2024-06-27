@@ -86,7 +86,7 @@ export const navItems = [
       iconLists: ["/html.svg", "/css.svg", "/re.svg", ],
       link: "https://single-page-w.vercel.app/",
     },
-    /*{
+    {
       id: 3,
       title: "AI Image SaaS - Canva Application",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
@@ -101,7 +101,7 @@ export const navItems = [
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
       link: "https://github.com/adrianhajdin/iphone",
-    }, */
+    },
   ];
   
   export const testimonials = [
@@ -205,12 +205,14 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link: "https://github.com/guilletDev"
+      link: "https://github.com/guilletDev",
+      title: 'github'
     },
     {
       id: 2,
       img: "/link.svg",
-      link: "https://www.linkedin.com/in/guillermo-trobiani-b93641305/"
+      link: "https://www.linkedin.com/in/guillermo-trobiani-b93641305/",
+      title: 'linkedin'
     },
     /* {
       id: 3,
