@@ -44,11 +44,11 @@ const Hero = () => {
 
             <div className="flex items-center md:gap-3 gap-4 mt-5 md:mt-7">
                     {socialMedia.map((profile)=>(
-                        <div key={profile.id} className="flex w-32 h-10 cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
+                        <div key={profile.id} className="flex w-10 h-10 cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
                         rounded-lg border border-black-300">
                             <a target="blank" href={profile.link} className="flex gap-2">
                                 <img src={profile.img} alt='Iconos del footer' height={20} width={20} />
-                                <p>{profile.title}</p>
+                                
                             </a>
                             
                         </div>
