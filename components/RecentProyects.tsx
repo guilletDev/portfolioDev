@@ -6,6 +6,7 @@ const RecentProyects = () => {
   return (
     <section id='projects' className=" py-20   ">
         <h1 className="heading">Proyectos <span className="text-purple">Recientes</span> </h1>
+       {/*  <p className='text-white-200 md:mt-10 my-5 text-center'>Estos son algunos proyectos hecho con cariño</p> */}
         <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
             {projects.map(({id, title, des, img, iconLists, link})=>(
                 <div key={id} className=' sm:h-[41rem] h-[32rem] lg:min-h-[35.5rem]  flex items-center justify-center sm:w-98 w-[80vw]'>

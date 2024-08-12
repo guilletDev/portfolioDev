@@ -35,9 +35,9 @@ const Hero = () => {
             words="¡Hola! Soy Guillermo, Desarrollador Front-end"/>
             
 
-            <p className="text-center md:tracking-wider mb-4 mt-1 text-lg md:text-lg lg:text-2xl">
+            {/* <p className="text-center md:tracking-wider mb-4 mt-1 text-lg md:text-lg lg:text-2xl">
             Transforma tu idea en una Página Web
-            </p>
+            </p> */}
             <a href="mailto:guilletdev@gmail.com">
                 <MagicButton title='Contáctame' icon={<FaLocationArrow />} position="right" />
             </a>

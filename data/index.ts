@@ -6,7 +6,7 @@ export const navItems = [
   ];
   
   export const gridItems = [
-    {
+    /* {
       id: 1,
       title: "Priorizo ​​la colaboración con el cliente, fomentando la comunicación abierta. ",
       description: "",
@@ -15,7 +15,7 @@ export const navItems = [
       titleClassName: "justify-end",
       img: "/b1.svg",
       spareImg: "",
-    },
+    }, */
     /*{
       id: 2,
       title: "Soy muy flexible con las comunicaciones de zona horaria",
