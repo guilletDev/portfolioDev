@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Actualmente construyendo Webs Dinámicas",
+      title: "Autodidacta en constante aprendizaje",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1 ",
       imgClassName: "",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Entusiasta de la tecnología y apasionado por el desarrollo",
+      title: "Entusiasta de la tecnología y el desarrollo ",
       description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
