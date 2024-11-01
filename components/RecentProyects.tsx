@@ -1,6 +1,7 @@
 import {projects} from '@/data'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
+import '../public/git.svg'
 
 const RecentProyects = () => {
   return (
@@ -8,7 +9,7 @@ const RecentProyects = () => {
         <h1 className="heading">Proyectos <span className="text-purple">Recientes</span> </h1>
        {/*  <p className='text-white-200 md:mt-10 my-5 text-center'>Estos son algunos proyectos hecho con cariño</p> */}
         <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-            {projects.map(({id, title, des, img, iconLists, link})=>(
+            {projects.map(({id, title, des, img, iconLists, link, linkGit})=>(
                 <div key={id} className=' sm:h-[41rem] h-[32rem] lg:min-h-[35.5rem]  flex items-center justify-center sm:w-98 w-[80vw]'>
                     <PinContainer title={title} href={link}>
                       <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]
@@ -36,6 +37,9 @@ const RecentProyects = () => {
                             ))} 
                         </div>
                         <div className='flex items-center' >
+                          <a target='blank' href={linkGit} className='mr-4'>
+                              <img src="./git.svg" alt="logo github" className='w-7 h-9 md:w-8 md:h-10' />
+                          </a>
                           <a target='blank' href={link} className='flex items-center'>
                             <p className='flex flex-col lg:text-xl md:text-xs text-sm text-purple'>Ver Demo</p>
                             <FaLocationArrow className='ms-2' color= '#CBACF9' />

@@ -72,29 +72,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Visionseduce online - Landing Page",
+      des: " Diseñada para presentar servicios y optimizada para captar la atención del usuario y guiarlo hacia la conversión.",
+      img: "/visionseduceonline.webp",
+      iconLists: ["/re.svg", "/tail.svg", ],
+      link: "https://visionseduce.online/",
+      linkGit: "https://github.com/guilletDev/visionseduce",
+    },
+    {
+      id: 2,
       title: "Buscador de Peliculas",
       des: "Encuentra la peliculas que quieras",
       img: "/Buscadorpeliculas.webp",
       iconLists: [ "/html.svg", "/css.svg", "/re.svg",],
       link: "https://buscador-peliculas-guillet.vercel.app/",
+      linkGit: "https://github.com/guilletDev/Buscador-Peliculas",
     },
     {
-      id: 2,
+      id: 3,
       title: "Mini Web App de Productos",
-      des: "Renderiza lista de productos a travez del consumo de una API",
+      des: "Renderiza lista de productos a través del consumo de una API",
       img: "/singlepageportada.webp",
       iconLists: ["/html.svg", "/css.svg", "/re.svg", ],
       link: "https://single-page-w.vercel.app/",
+      linkGit: "https://github.com/guilletDev/single-page-w",
     },
+    
+    
+   
     /* {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
       id: 4,
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",

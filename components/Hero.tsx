@@ -4,6 +4,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { socialMedia } from "@/data";
 
+
 const Hero = () => {
   return (
     <div className=" pb-20 pt-20">
@@ -38,8 +39,8 @@ const Hero = () => {
             {/* <p className="text-center md:tracking-wider mb-4 mt-1 text-lg md:text-lg lg:text-2xl">
             Transforma tu idea en una Página Web
             </p> */}
-            <a href="mailto:guilletdev@gmail.com">
-                <MagicButton title='Contáctame' icon={<FaLocationArrow />} position="right" />
+            <a href="https://drive.google.com/uc?export=download&id=1UxvlvufoRyp1rvB4oM_Bp0JPGM_E-c17" download='GuilleCv'>
+                <MagicButton title='Descargar Cv' icon={<FaLocationArrow />} position="right" />
             </a>
 
             <div className="flex items-center md:gap-3 gap-4 mt-5 md:mt-7">
