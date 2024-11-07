@@ -72,8 +72,8 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Visionseduce online - Landing Page",
-      des: " Diseñada para presentar servicios y optimizada para captar la atención del usuario y guiarlo hacia la conversión.",
+      title: "Visionseduce online Landing Page",
+      des: " Diseñada para presentar servicios y captar la atención del usuario para la conversión.",
       img: "/visionseduceonline.webp",
       iconLists: ["/re.svg", "/tail.svg", ],
       link: "https://visionseduce.online/",
@@ -81,6 +81,15 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Saltacyberclub Landing Page",
+      des: "Sitio atractivo y funcional para conectar a entusiastas de la seguridad informática.",
+      img: "/saltacyberclub.jpg",
+      iconLists: [ "/re.svg", "/tail.svg",],
+      link: "https://saltacyberclub.vercel.app/",
+      linkGit: "https://github.com/guilletDev/saltacyberclub",
+    },
+    {
+      id: 3,
       title: "Buscador de Peliculas",
       des: "Encuentra la peliculas que quieras",
       img: "/Buscadorpeliculas.webp",
@@ -89,7 +98,7 @@ export const navItems = [
       linkGit: "https://github.com/guilletDev/Buscador-Peliculas",
     },
     {
-      id: 3,
+      id: 4,
       title: "Mini Web App de Productos",
       des: "Renderiza lista de productos a través del consumo de una API",
       img: "/singlepageportada.webp",
