@@ -36,7 +36,7 @@ const Hero = () => {
             <h2 className="text-md text-center text-blue-100 text-lg ">
             
             </h2>
-            <p className="text-white-200 md:text-lg my-5 text-center font-medium roboto">Analista de Sistemas y Desarrollador web Frontend, enfocado en construir experiencias digitales que aporten valor y conecten con las personas </p>
+            <p className="text-white-200 md:text-lg my-5 text-center font-medium roboto">Analista de Sistemas y Desarrollador web, enfocado en construir experiencias digitales que aporten valor y conecten con las personas </p>
             
 
             {/* <p className="text-center md:tracking-wider mb-4 mt-1 text-lg md:text-lg lg:text-2xl">
