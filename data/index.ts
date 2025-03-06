@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Entusiasta de la tecnología y el desarrollo ",
+      title: "Entusiasta de la tecnología",
       description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -75,7 +75,7 @@ export const navItems = [
       title: "Libros de Desarrollo Personal",
       des: " Selección de libros enfocados en el crecimiento personal y profesional ",
       img: "/dev-book-portada.webp",
-      iconLists: ["/astro.svg", "/tail.svg", "typescript.svg" ],
+      iconLists: ["/tail.svg", "typescript.svg" ],
       link: "https://dev-book-gd.vercel.app/",
       linkGit: "https://github.com/guilletDev/dev-book",
     },
@@ -88,7 +88,7 @@ export const navItems = [
       link: "https://visionseduce.online/",
       linkGit: "https://github.com/guilletDev/visionseduce",
     },
-    {
+   /*  {
       id: 3,
       title: "Saltacyberclub Landing Page",
       des: "Sitio atractivo y funcional para conectar",
@@ -96,7 +96,7 @@ export const navItems = [
       iconLists: [ "/re.svg", "/tail.svg",],
       link: "https://saltacyberclub.vercel.app/",
       linkGit: "https://github.com/guilletDev/saltacyberclub",
-    },
+    }, */
     {
       id: 4,
       title: "Buscador de Peliculas",

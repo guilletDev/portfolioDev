@@ -36,7 +36,7 @@ const Hero = () => {
             <h2 className="text-md text-center text-blue-100 text-lg ">
             
             </h2>
-            <p className="text-white-200 md:text-lg my-5 text-center font-medium roboto">Analista de Sistemas y Desarrollador web, enfocado en construir experiencias digitales que aporten valor y conecten con las personas </p>
+            <p className="text-white-200 md:text-lg my-5 text-center font-medium roboto">Analista de Sistemas y Desarrollador web, ayudo a que la tecnología sea más fácil de usar a través de sitios bien diseñados y optimizados </p>
             
 
             {/* <p className="text-center md:tracking-wider mb-4 mt-1 text-lg md:text-lg lg:text-2xl">
@@ -48,7 +48,7 @@ const Hero = () => {
 
             <div className="flex items-center md:gap-3 gap-4 mt-5 md:mt-7">
                     {socialMedia.map((profile)=>(
-                        <div key={profile.id} className="flex md:w-28 h-10 cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
+                        <div key={profile.id} className="flex md:w-28 h-10 w-[113px] cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
                         rounded-lg border border-black-300">
                             <a target="blank" href={profile.link} className="flex gap-2 justify-center">
                                 <img src={profile.img} alt='Iconos del footer' height={20} width={20} />

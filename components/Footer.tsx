@@ -7,17 +7,17 @@ export const Footer = ()=> {
     return (
         <footer id="contact" className="w-full pb-10 mb-[60px] md:mb-5 ">
            
-            <div className="flex flex-col items-center">
+          {/*   <div className="flex flex-col items-center">
                 <h1 className="heading lg:max-w-[50vw]">¿Listo para llevar tu <span className="text-purple">presencia</span> digital al siguiente nivel?</h1>
                 <p className="text-white-200 md:mt-10 my-5 text-center">Comunicate conmigo y analicemos cómo puedo ayudarte a alcanzar tus objetivos </p>
                 <a href="mailto:guilletdev@gmail.com">
                     <MagicButton title="Contáctame" icon={<FaLocationArrow/>} position="right"/>
                 </a>
             </div>
-
+ */}
             <div className="flex items-center justify-between mt-16 md:flex-row flex-col">
                 <p className="text-sm md:text-base md:font-normal font-light">
-                     © 2024 guilletdev
+                     © 2025 guilletdev
                 </p>
                 <div className="flex items-center md:gap-4 gap-4 mt-5 md:mt-0">
                     {socialMedia.map((profile)=>(
